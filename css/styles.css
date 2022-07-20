@@ -1,0 +1,245 @@
+/* back-ground color main #FFFFFF
+/* back-ground color secondary #2F303A  */
+/* text color main #757575 */
+/* text color hero #FFFFFF */
+/* text color headers #212121 */
+/* text color logo #000000 */
+/* text color accent #2196F3 */
+/* back-ground color secondary (and buttons) #F5F4FA */
+
+:root {
+  --text-color-main: #757575;
+  --text-color-accent: #2196f3;
+  --text-color-headers: #212121;
+  --back-ground-color-main: #ffffff;
+  --back-ground-color-secondary: #2f303a;
+  --back-ground-color-third: #f5f4fa;
+  --text-color-logo: #000000;
+}
+
+body {
+  color: var(--text-color-main);
+  background-color: var(--back-ground-color-main);
+  font-family: Roboto, sans-serif;
+  }
+
+/* Exeptions */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* Site navigation  */
+
+
+.site-nav .link.current {
+  color: var(--text-color-accent);
+}
+
+.logo {
+ color: var(--text-color-accent);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em; 
+}
+
+.page-nav .logo-up {
+  color: var(--text-color-logo)
+}
+
+.logo-end {
+  color: var(--back-ground-color-main)
+}
+
+.site-nav,
+.auth-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+}
+
+.site-nav .link {
+  color: var(--text-color-headers);
+}
+
+.auth-nav .link {
+  color: var(--text-color-main);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus
+{color: var(--text-color-accent)}
+
+/* Hero  */
+.section-hero {
+  background-color: var(--back-ground-color-secondary);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--back-ground-color-main);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--back-ground-color-main);
+  background-color: var(--text-color-accent);
+  border-style: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #188ce8;
+}
+
+/* Principles  */
+
+.principles-list-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color-headers);
+}
+
+.principles-list {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-main);
+  font-size: 14px;
+}
+
+/* Activity and comand  */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-headers);
+}
+
+.section-comand {
+  background-color: var(--back-ground-color-third);
+}
+
+.section-comand-list {
+  font-weight: 500;
+   line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--text-color-headers);
+  font-size: 16px;
+}
+
+.comand-item {
+  background-color: var(--back-ground-color-main);
+}
+
+.comand-position {
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+}
+
+/* Footer  */
+
+.contacts {
+  background-color: var(--back-ground-color-secondary);
+}
+
+.adress {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.contacts-list {
+line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts-list .mail,
+.contacts-list .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-list .map {
+  color: var(--back-ground-color-main);
+}
+
+.map:hover,
+.map:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus
+{
+  color: var(--text-color-accent);
+}
+
+
+
+/* PORTFOLIO CSS  */
+
+/* Filter style  */
+
+.section-projects-list .current-button {
+  background-color: var(--text-color-accent)
+}
+
+.button-projects {
+  font-size: inherit;
+font-family: inherit;
+font-weight: 500;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-color-headers);
+border-style: none;
+background-color: var(--back-ground-color-third);
+}
+
+.button-projects:hover,
+.button-projects:focus {
+  color: var(--back-ground-color-main);
+  background-color: var(--text-color-accent);
+}
+
+.button-projects,
+.button {
+  cursor: pointer;
+}
+
+/* Picture style  */
+
+.project-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--text-color-headers);
+}
+
+.project-type{
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--text-color-main);
+}
