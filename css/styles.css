@@ -55,7 +55,20 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   align-items: center;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -69,6 +82,8 @@ body {
 
 .logo-container {
   margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-end {
@@ -95,6 +110,8 @@ align-items: center;
   display: flex;
   padding: 0;
   align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 
   font-weight: 500;
   line-height: 1.14;
@@ -128,14 +145,21 @@ margin-right: 50px;
 
 
 /* Hero  */
+.section-hero,
+.section-principles,
+.section-activity,
+.section-comand,
+.section-projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .section-hero {
-  margin-bottom: 94px; 
   text-align: center;
   background-color: var(--back-ground-color-secondary);
   padding-bottom: 200px;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .hero-title {
@@ -143,10 +167,10 @@ margin-right: 50px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
+  padding-top: 106px;
   width: 696px;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
     
   font-weight: 900;
   font-size: 44px;
@@ -159,11 +183,9 @@ margin-right: 50px;
 .button {
   display: inline-block;
   min-width: 216px;
-  /* height: 50px; */
   border-radius: 4px;
   padding: 10px 32px;
   text-align: center;
-  /* margin-bottom: 200px; */
   margin-right: auto;
   margin-left: auto;
   border: none;
@@ -191,7 +213,7 @@ margin-right: 50px;
 
 .principles .items {
   width: calc((100% - 90px)/4);
-  background-color: blue;
+  /* background-color: blue; */
   }
 
   .principles .items:not(:last-child) {
@@ -199,7 +221,7 @@ margin-right: 50px;
   }
 
 .principles-list-title {
-margin: 0px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
 
   font-size: 14px;
   font-weight: 700;
@@ -220,19 +242,16 @@ margin: 0px 0px 10px 0px;
 
 /* Activity and comand  */
 
-/* Activiyt  */
-.our-activity,
+/* Activity  */
+.section-activity,
 .section-principles {
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .section-title {
-margin-top: 94px;
-margin-bottom: 50px;
-/* margin-top: 0;
-margin-bottom: 0; */
+  padding-bottom: 50px;
 
-outline: 2px solid red;
+/* outline: 2px solid red; */
 
   font-weight: 700;
   font-size: 36px;
@@ -264,7 +283,7 @@ outline: 2px solid red;
 }
 
 .comand-item {
-width: calc((100% - 90px)/4)
+  width: calc((100% - 90px)/4)
 
   background-color: var(--back-ground-color-main);
 }
@@ -307,7 +326,7 @@ width: calc((100% - 90px)/4)
 .logo-bottom {
   padding-top: 60px;
   margin-right: auto;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   margin-left: 0;
 }
 
@@ -327,13 +346,15 @@ width: calc((100% - 90px)/4)
   letter-spacing: 0.03em;
 }
 
-.contacts-list .mail,
-.contacts-list .tel {
+.contacts-list .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts-list .map {
   margin-bottom: 9px;
+}
+
+.contacts-list .map .link {
   color: var(--back-ground-color-main);
 }
 
@@ -341,12 +362,12 @@ width: calc((100% - 90px)/4)
   margin-bottom: 9px;
 }
 
-.map:hover,
-.map:focus,
-.mail:hover,
-.mail:focus,
-.tel:hover,
-.tel:focus
+.map .link:hover,
+.map .link:focus,
+.mail .link:hover,
+.mail .link:focus,
+.tel .link:hover,
+.tel .link:focus
 {
   color: var(--text-color-accent);
 }
@@ -373,8 +394,7 @@ width: calc((100% - 90px)/4)
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
-  margin-bottom: 34px;
+  padding-bottom: 34px;
 }
 
 .section-projects-list .item:not(:last-child) {
@@ -419,39 +439,37 @@ width: calc((100% - 90px)/4)
 
 .projects .item {
   width: calc((100% - 60px)/3);
-}
-
-.projects .item {
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
 }
 
 .projects .item:nth-child(3n) {
   margin-right: 0;
 }
 
-.projects .item:nth-last-child(-n+3) {
-  margin-bottom: 94px;
-}
-
 .project-name {
-margin-top: 20px;
-margin-bottom: 4px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 
 
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--text-color-headers);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color-headers);
 }
 
 .project-type{
-margin-top: 0;
-margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
 
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--text-color-main);
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color-main);
 }
+
+
 
