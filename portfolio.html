@@ -19,38 +19,43 @@
     <!--Head of page-->
     <header>
       <div class="container">
-        <nav class="page-nav">
-          <div class="logo-container">
+        <div class="navigation">
+          <nav class="page-nav">
             <a class="logo link" lang="en" href="">
               Web<span class="logo-up">Studio</span></a
             >
-          </div>
-          <ul class="site-nav list">
-            <li class="item"><a class="link" href="./index.html">Студія</a></li>
-            <li class="item"><a class="link current" href="">Портфоліо</a></li>
-            <li class="item"><a class="link" href="">Контакти</a></li>
+            <ul class="site-nav list">
+              <li class="item">
+                <a class="link" href="./index.html">Студія</a>
+              </li>
+              <li class="item">
+                <a class="link current" href="">Портфоліо</a>
+              </li>
+              <li class="item"><a class="link" href="">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="auth-nav list">
+            <li class="item">
+              <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
-        </nav>
-        <ul class="auth-nav list">
-          <li class="item">
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="item">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
       <section class="section-projects">
-        <!-- Project examples  -->
-        <h1 class="section-projects-title visually-hidden">Project examples</h1>
-        <!--h1 to hide-->
-        <!-- Filter -->
-
         <div class="container">
+          <!-- Project examples  -->
+          <h1 class="section-projects-title visually-hidden">
+            Project examples
+          </h1>
+          <!--h1 to hide-->
+          <!-- Filter -->
           <ul class="section-projects-list list">
             <li class="item">
               <button class="button-projects current-button" type="button">
@@ -70,11 +75,8 @@
               <button class="button-projects" type="button">Маркетинг</button>
             </li>
           </ul>
-        </div>
 
-        <!-- Examples  -->
-
-        <div class="container">
+          <!-- Examples  -->
           <ul class="projects list">
             <li class="item">
               <img
@@ -83,8 +85,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Технокряк</h2>
-              <p class="project-type">Веб-сайт</p>
+              <div class="project-samples">
+                <h2 class="project-name">Технокряк</h2>
+                <p class="project-type">Веб-сайт</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -93,10 +97,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">
-                Постер <span lang="en">Orlean vs Golden Star</span>
-              </h2>
-              <p class="project-type">Дизайн</p>
+              <div class="project-samples">
+                <h2 class="project-name">
+                  Постер <span lang="en">Orlean vs Golden Star</span>
+                </h2>
+                <p class="project-type">Дизайн</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -105,10 +111,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">
-                Ресторан<span lang="en"> Seafood</span>
-              </h2>
-              <p class="project-type">Додаток</p>
+              <div class="project-samples">
+                <h2 class="project-name">
+                  Ресторан<span lang="en"> Seafood</span>
+                </h2>
+                <p class="project-type">Додаток</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -117,8 +125,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Проєкт<span lang="en"> Prime</span></h2>
-              <p class="project-type">Маркетинг</p>
+              <div class="project-samples">
+                <h2 class="project-name">
+                  Проєкт<span lang="en"> Prime</span>
+                </h2>
+                <p class="project-type">Маркетинг</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -127,8 +139,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Проєкт<span lang="en"> Boxes</span></h2>
-              <p class="project-type">Додаток</p>
+              <div class="project-samples">
+                <h2 class="project-name">
+                  Проєкт<span lang="en"> Boxes</span>
+                </h2>
+                <p class="project-type">Додаток</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -137,8 +153,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name" lang="en">Inspiration has no Borders</h2>
-              <p class="project-type">Веб-сайт</p>
+              <div class="project-samples">
+                <h2 class="project-name" lang="en">
+                  Inspiration has no Borders
+                </h2>
+                <p class="project-type">Веб-сайт</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -147,10 +167,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">
-                Видання<span lang="en"> Limited Edition</span>
-              </h2>
-              <p class="project-type">Дизайн</p>
+              <div class="project-samples">
+                <h2 class="project-name">
+                  Видання<span lang="en"> Limited Edition</span>
+                </h2>
+                <p class="project-type">Дизайн</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -159,8 +181,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Проєкт<span lang="en"> LAB</span></h2>
-              <p class="project-type">Маркетинг</p>
+              <div class="project-samples">
+                <h2 class="project-name">Проєкт<span lang="en"> LAB</span></h2>
+                <p class="project-type">Маркетинг</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -169,15 +193,17 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name" lang="en">Growing Business</h2>
-              <p class="project-type">Додаток</p>
+              <div class="project-samples">
+                <h2 class="project-name" lang="en">Growing Business</h2>
+                <p class="project-type">Додаток</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="contacts">
-      <div class="container-for-contacts">
+      <div class="container">
         <div class="logo-bottom">
           <a class="logo link" lang="en" href=""
             >Web<span class="logo-end">Studio</span></a

@@ -21,38 +21,43 @@
     <!--Head of page-->
     <header>
       <div class="container">
-        <nav class="page-nav">
-          <div class="logo-container">
+        <div class="navigation">
+          <nav class="page-nav">
             <a class="logo link" lang="en" href="">
-              Web<span class="logo-up">Studio</span></a>
-          </div>
-          <ul class="site-nav list">
-            <li class="item"><a class="link current" href="">Студія</a></li>
-            <li class="item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="item"><a class="link" href="">Контакти</a></li>
-          </ul>
-        </nav>
-        <ul class="auth-nav list">
-          <li class="item">
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              Web<span class="logo-up">Studio</span></a
             >
-          </li>
-          <li class="item">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+            <ul class="site-nav list">
+              <li class="item"><a class="link current" href="">Студія</a></li>
+              <li class="item">
+                <a class="link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="item"><a class="link" href="">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="auth-nav list">
+            <li class="item">
+              <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
       <section class="section-hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="button" type="button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="button" type="button">Замовити послугу</button>
+        </div>
       </section>
       <!--About us-->
       <section class="section-principles">
-        <h2 class="visually-hidden">Our principles</h2>
         <div class="container">
+          <h2 class="visually-hidden">Our principles</h2>
           <ul class="principles list">
             <li class="items">
               <h3 class="principles-list-title">Увага до деталей</h3>
@@ -86,83 +91,92 @@
       </section>
       <!--What we do-->
       <section class="section-activity">
-        <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="activity-list list container">
-          <li class="items">
-            <img
-              src="./images/1.jpg"
-              alt="working desk with computer"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="items">
-            <img
-              src="./images/2.jpg"
-              alt="laptop with smartphones samples"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="items">
-            <img
-              src="./images/3.jpg"
-              alt="planshet with color-scheme"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="activity-list list">
+            <li class="items">
+              <img
+                src="./images/1.jpg"
+                alt="working desk with computer"
+                width="370"
+              />
+            </li>
+            <li class="items">
+              <img
+                src="./images/2.jpg"
+                alt="laptop with smartphones samples"
+                width="370"
+              />
+            </li>
+            <li class="items">
+              <img
+                src="./images/3.jpg"
+                alt="planshet with color-scheme"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Our comand-->
       <section class="section-comand">
-        <h2 class="section-title staff">Наша команда</h2>
-        <ul class="comand list container">
-          <li class="comand-item">
-            <img
-              src="./images/id.jpg"
-              alt="Игорь Демьяненко"
-              width="270"
-              height="260"
-            />
-            <h3 class="section-comand-list">Ігор Дем'яненко</h3>
-            <p class="comand-position" lang="en">Product Designer</p>
-          </li>
-          <li class="comand-item">
-            <img
-              src="./images/or.jpg"
-              alt="Ольга Репина"
-              width="270"
-              height="260"
-            />
-            <h3 class="section-comand-list">Ольга Рєпіна</h3>
-            <p class="comand-position" lang="en">Frontend Developer</p>
-          </li>
-          <li class="comand-item">
-            <img
-              src="./images/nt.jpg"
-              alt="Николай Тарасов"
-              width="270"
-              height="260"
-            />
-            <h3 class="section-comand-list">Микола Тарасов</h3>
-            <p class="comand-position" lang="en">Marketing</p>
-          </li>
-          <li class="comand-item">
-            <img
-              src="./images/me.jpg"
-              alt="Михаил Ермаков"
-              width="270"
-              height="260"
-            />
-            <h3 class="section-comand-list">Михайло Єрмаков</h3>
-            <p class="comand-position" lang="en">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="comand list">
+            <li class="comand-item">
+              <img
+                src="./images/id.jpg"
+                alt="Игорь Демьяненко"
+                width="270"
+                height="260"
+              />
+              <div class="designers">
+                <h3 class="section-comand-list">Ігор Дем'яненко</h3>
+                <p class="comand-position" lang="en">Product Designer</p>
+              </div>
+            </li>
+            <li class="comand-item">
+              <img
+                src="./images/or.jpg"
+                alt="Ольга Репина"
+                width="270"
+                height="260"
+              />
+              <div class="designers">
+                <h3 class="section-comand-list">Ольга Рєпіна</h3>
+                <p class="comand-position" lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="comand-item">
+              <img
+                src="./images/nt.jpg"
+                alt="Николай Тарасов"
+                width="270"
+                height="260"
+              />
+              <div class="designers">
+                <h3 class="section-comand-list">Микола Тарасов</h3>
+                <p class="comand-position" lang="en">Marketing</p>
+              </div>
+            </li>
+            <li class="comand-item">
+              <img
+                src="./images/me.jpg"
+                alt="Михаил Ермаков"
+                width="270"
+                height="260"
+              />
+              <div class="designers">
+                <h3 class="section-comand-list">Михайло Єрмаков</h3>
+                <p class="comand-position" lang="en">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="contacts">
-      <div class="container-for-contacts">
+      <div class="container">
         <div class="logo-bottom">
           <a class="logo link" lang="en" href=""
             >Web<span class="logo-end">Studio</span></a
