@@ -258,7 +258,7 @@ padding-bottom: 94px;
 }
 
 .section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
 /* outline: 2px solid red; */
 
@@ -409,7 +409,7 @@ padding-bottom: 94px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-projects-list .item:not(:last-child) {
